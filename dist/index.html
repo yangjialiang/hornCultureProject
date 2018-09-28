@@ -1,5 +1,12 @@
-<!DOCTYPE html><html><head><meta http-equiv=Content-Type content="text/html; charset=UTF-8"><meta name=x5-orientation content=portrait><meta name=screen-orientation content=portrait><meta name=author content=YANGJIALIANG@PChouse><meta name=format-detection content="telephone=no"><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta name=apple-mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-status-bar-style content=black><script>; (function () {
-      var html = document.querySelector("html");
-      var rem = html.offsetWidth / 7.5;
-      html.style.fontSize = rem + "px";
-    })();</script><title>号角文化</title><link href=./static/css/app.9e0831971fdf88222af56c0c1f9d4daa.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.b6df49bf0e1b88b6dc9f.js></script><script type=text/javascript src=./static/js/vendor.0c97e35797a0b081a80d.js></script><script type=text/javascript src=./static/js/app.94a0a683bdb81a312f65.js></script></body></html>
+<!DOCTYPE html><html><head><meta http-equiv=Content-Type content="text/html; charset=UTF-8"><meta name=x5-orientation content=portrait><meta name=screen-orientation content=portrait><meta name=author content=YANGJIALIANG@PChouse><meta name=format-detection content="telephone=no"><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta name=apple-mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-status-bar-style content=black><script>;
+        (function() {
+            var code = (new URLSearchParams(location.search.slice(1))).get('code')
+            if (code) {
+                localStorage.setItem('wx_code', code)
+                localStorage.setItem('token', '')
+                location.href = location.origin + "/index.html"
+            }
+            var html = document.querySelector("html");
+            var rem = html.offsetWidth / 7.5;
+            html.style.fontSize = rem + "px";
+        })();</script><title>号角文化</title><link href=./static/css/app.e8fe0c75845686ff6c560abfd8f95024.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.f112310d7cb9525f94c6.js></script><script type=text/javascript src=./static/js/vendor.846d00e859d78cd67595.js></script><script type=text/javascript src=./static/js/app.dd5df90dc4f09be7cb52.js></script></body></html>
