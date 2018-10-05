@@ -1,2 +1,0 @@
-webpackJsonp([25],{"84GX":function(e,t){},NuEX:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement,t=this._self._c||e;return t("section",[t("mt-cell",{attrs:{title:"选择俱乐部类型"}})],1)},staticRenderFns:[]};var a=n("VU/8")({name:"club"},r,!1,function(e){n("84GX")},"data-v-0df9a840",null);t.default=a.exports}});
-//# sourceMappingURL=25.f1850a1a063791fa965e.js.map
