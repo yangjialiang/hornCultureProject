@@ -1,0 +1,2 @@
+webpackJsonp([22],{"/NHL":function(e,t){},RUlc:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement,t=this._self._c||e;return t("section",[t("router-view")],1)},staticRenderFns:[]};var c=n("VU/8")({name:""},r,!1,function(e){n("/NHL")},"data-v-8c0707fc",null);t.default=c.exports}});
+//# sourceMappingURL=22.d6ded3a2056d7cbc11bd.js.map
